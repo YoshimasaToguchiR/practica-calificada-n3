@@ -13,7 +13,7 @@
 </head>
 <body>
 <header class="container">
-	<h1>Busco
+	<h1>Busco<h1>
 </header>
 </body>
 </html>

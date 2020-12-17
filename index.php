@@ -33,20 +33,20 @@ $resultado_producto = $objProducto->get();
 
   <body>
 	  <header>
-		  <h1>Busco<h1>
+		  <center><h1>Busco<h1>
 	  </header>
 		  
  	<div class="container">
  		
  		<div class="page-header">
-			<center><h1><font color="white" size="10" face="Algerian">Carro De Compras</font></h1></center>
+			<center><h1><font color="black" size="10" face="Arial">Proceso De Compras</font></h1></center>
 		</div>
 		<center>
  		<div class="row">
 
 
 			<div class="col-md-4">	
-				<div><font color="white" size="6" face="Algerian">Producto:</font>
+				<div><font color="black" size="6" face="Arial">Producto:</font>
 				<select name="cbo_producto" id="cbo_producto" class="col-md-2 form-control">
 					<option value="0">Seleccione un producto</option>
 					<?php foreach($resultado_producto as $producto):?>
@@ -60,7 +60,7 @@ $resultado_producto = $objProducto->get();
 
 
 			<div class="col-md-4">
-				<div><font color="white" size="6" face="Algerian">Cantidad:</font>
+				<div><font color="black" size="6" face="Arial">Cantidad:</font>
 				  <input id="txt_cantidad" name="txt_cantidad" type="text" class="col-md-2 form-control" placeholder="Ingrese cantidad" autocomplete="off" />
 				</div>
 			</div>
@@ -134,11 +134,28 @@ $resultado_producto = $objProducto->get();
  	<center>
  	<div class="col-md-12">
 				<a href="detalle2.php">
-				<div style="margin-top: 45px;">
-				<button type="button" class="btn btn-success "><font size="8" face="Algerian">COMPRAR</font></button>
+				<div style="margin-top: 20px;">
+				<button type="button" class="btn btn-success "><font size="8" face="Arial">COMPRAR</font></button>
 				</div>
 			    </a>
 			</div>
-	</center>		
+	</center>
+	<center>
+	<a href="index.html">
+				<div style="margin-top: 20px;">
+				<button type="button" class="btn btn-success "><font size="8" face="Arial">Volver</font></button>
+				</div>
+			    </a>
+			</div>
+
+	<br>
+	<div class="">
+		
+		<footer>
+			<br><p>
+			<br><br>
+			<p><center>Busco Copyright © 2020<p>
+		</footer>
+	</div>
   </body>
 </html>

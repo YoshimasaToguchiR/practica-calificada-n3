@@ -4,26 +4,30 @@
 <head>
 	<title>Carrito</title>
 
-	<link href="libs/css/bootstrap.css" rel="stylesheet">
- <script src="libs/js/jquery.js"></script>
-    <script src="libs/js/jquery-1.8.3.min.js"></script>
-    <script src="libs/js/bootstrap.min.js"></script>
+	<link href="wwwroot/css/bootstrap.css" rel="stylesheet">
+ <script src="wwwroot/js/jquery.js"></script>
+    <script src="wwwroot/js/jquery-1.8.3.min.js"></script>
+    <script src="wwwroot/js/bootstrap.min.js"></script>
    	
-    <script type="text/javascript" src="libs/ajax.js"></script>
+    <script type="text/javascript" src="wwwroot/ajax.js"></script>
     <link rel="shortcut icon" href="carro.png">
-	
+	<link rel="stylesheet" href="wwwroot/css/site.css">
 
-    <link rel="stylesheet" href="libs/js/alertify/themes/alertify.core.css" />
-	<link rel="stylesheet" href="libs/js/alertify/themes/alertify.bootstrap.css" id="toggleCSS" />
-    <script src="libs/js/alertify/lib/alertify.min.js"></script>
+    <link rel="stylesheet" href="wwwroot/js/alertify/themes/alertify.core.css" />
+	<link rel="stylesheet" href="wwwroot/js/alertify/themes/alertify.bootstrap.css" id="toggleCSS" />
+    <script src="wwwroot/js/alertify/lib/alertify.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="estilocompra.css">
+    <link rel="stylesheet" type="text/css" href="wwwroot/css/estilocompra.css">
 
 </head>
 <body>
+<header>
+	<h1>Busco<h1>
+</header>
 
 </body>
 </html>
+<center>
 <?php 
 @session_start();
 ?>
@@ -69,15 +73,15 @@
 <center>
 <br>
 <br>
-
-<input type="text" name="descripción" placeholder="Descripción" required>
-
-<input type="text" name="cantidad" placeholder="Cantidad" required>
-
-<input type="text" name="precio" placeholder="Precio" required>
-
-<input type="text" name="subtotal" placeholder="Subtotal" required>
-
+<div class="contenedor">
+<input type="text" name="descripción" placeholder="Nombre" required>
+<br>
+<input type="text" name="cantidad" placeholder="Numero de Tarjeta" required>
+<br>
+<input type="text" name="precio" placeholder="Fecha de Vencimiento" required>
+<br>
+<input type="text" name="subtotal" placeholder="CCV" required>
+</div>
 <br>
 <br>
 <input type="submit" value="Comprar">
