@@ -4,13 +4,17 @@
 <head>
 	<title>Carrito</title>
 
-    <link rel="shortcut icon" href="carro.png">
+	<link rel="shortcut icon" href="carro.png">
+	<link rel="stylesheet" href="wwwroot/css/site.css">
+	
 	
 
 
 </head>
 <body>
-
+<header class="container">
+	<h1>Busco
+</header>
 </body>
 </html>
 <?php 
@@ -63,4 +67,4 @@
     </center>			
 <?php }?>
 
-<script type="text/javascript" src="libs/ajax.js"></script>
+<script type="text/javascript" src="wwwroot/ajax.js"></script>
