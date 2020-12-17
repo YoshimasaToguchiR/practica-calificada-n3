@@ -2,16 +2,10 @@
 
 <?php
 
-//Chiphysi programación suscribete 
-//V 0.1 original
-//Autor: Chiphysi  Autor: Jhonatan Cardona  
-//Derechos de autor(Suscribete)
-
-
-    $usuario = "root"; //en este caso root por ser localhost
-    $password = "";  //contraseña por si tiene algun servicio de hosting 
-    $servidor = "localhost"; //localhost por lo del xampp
-    $basededatos ="compras"; //nombre de la base de datos
+    $usuario = "root"; 
+    $password = "";  
+    $servidor = "localhost"; 
+    $basededatos ="compras"; 
 
 
 

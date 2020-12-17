@@ -1,10 +1,5 @@
 <?php
 
-// Chiphysi programación suscribete 
-// V 0.1 original 
-// Autor: Chiphysi  Autor: Jhonatan Cardona  
-// Derechos de autor(Suscribete)  
-
 session_start();
 if(isset($_GET["page"])){
 	$page=$_GET["page"];

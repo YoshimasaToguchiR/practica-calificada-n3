@@ -1,9 +1,4 @@
 <?php 
-// Chiphysi programación suscribete -->
-// V 0.1 original -->
-// Autor: Chiphysi  --><!--// Autor: Jhonatan Cardona  -->
-// Derechos de autor(Suscribete)  -->
-
 session_start();
 $_SESSION['detalle'] = array();
 
@@ -33,20 +28,6 @@ $resultado_producto = $objProducto->get();
     <script src="libs/js/alertify/lib/alertify.min.js"></script>
 
   </head>
-
-
-  <style>
-  	
-body{
-
-	background-image: url(fondo.jpg);
-
-
-
-}
-
-
-  </style>
 
   <body>
  	<div class="container">
