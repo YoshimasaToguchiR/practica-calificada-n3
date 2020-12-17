@@ -154,4 +154,5 @@ button{
     cursor: pointer;
     width: auto;
     align-items: center;
+    text-decoration: none;
 }
